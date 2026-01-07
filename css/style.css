@@ -93,6 +93,13 @@ video {
     text-align: center;
 }
 
+.center-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
 .mt-4 {
     margin-top: 1rem;
 }
@@ -527,6 +534,11 @@ video {
     text-align: center;
     border-radius: var(--radius-lg);
     margin: 2rem 1rem;
+    /* Creates space around */
+    width: auto;
+    /* Allow margin to define width, fixing overflow */
+    max-width: calc(100% - 2rem);
+    /* Explicit safety cap */
     overflow: hidden;
     /* Contain inner content */
 }
