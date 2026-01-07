@@ -1,3 +1,5 @@
+import { translations } from './translations.js';
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- Language Switcher Logic ---

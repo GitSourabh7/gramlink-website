@@ -1,4 +1,4 @@
-const translations = {
+export const translations = {
     en: {
         "hero.badge": "Reliable Rural Courier",
         "hero.title": "Connecting Villages. Delivering Trust.",
