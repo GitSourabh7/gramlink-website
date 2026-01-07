@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gramlink Courier - Connecting Villages</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Icons (Phosphor Icons for clean modern look) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Gramlink<span class="dot">.</span></span>
+            </a>
+            <div class="nav-controls">
+                <button id="lang-toggle" class="lang-btn">
+                    <i class="ph ph-translate"></i>
+                    <span id="current-lang">English</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge" data-key="hero.badge">Reliable Rural Courier</div>
+                <h1 class="hero-title" data-key="hero.title">Connecting Villages. Delivering Trust.</h1>
+                <p class="hero-subtitle" data-key="hero.subtitle">A community-powered courier network creating income opportunities in every village.</p>
+                
+                <div class="hero-actions">
+                    <button class="btn btn-primary" data-key="hero.cta_send">Send a Parcel</button>
+                    <button class="btn btn-outline" data-key="hero.cta_join">Join as Courier Partner</button>
+                </div>
+                
+                <div class="hero-secondary-cta">
+                    <a href="#" class="link-text" data-key="hero.cta_app">Download App (Coming Soon) →</a>
+                </div>
+            </div>
+             <!-- Decorative background elements could go here -->
+        </div>
+    </header>
+
+    <!-- How It Works Section -->
+    <section class="section how-it-works">
+        <div class="container">
+            <h2 class="section-title text-center" data-key="sections.how_it_works">How Gramlink Works</h2>
+            
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card fade-in">
+                    <div class="step-icon-wrapper blue">
+                        <i class="ph ph-package"></i>
+                    </div>
+                    <h3 data-key="steps.step1.title">Drop Parcel</h3>
+                    <p data-key="steps.step1.desc">User drops parcel at nearest Sub Courier Point</p>
+                </div>
+                
+                <!-- Connector (Visible on desktop) -->
+                <div class="step-connector"></div>
+
+                <!-- Step 2 -->
+                <div class="step-card fade-in">
+                    <div class="step-icon-wrapper green">
+                        <i class="ph ph-stack"></i>
+                    </div>
+                    <h3 data-key="steps.step2.title">Processing</h3>
+                    <p data-key="steps.step2.desc">Sub Courier batches parcels for transport</p>
+                </div>
+                
+                <div class="step-connector"></div>
+
+                <!-- Step 3 -->
+                <div class="step-card fade-in">
+                    <div class="step-icon-wrapper orange">
+                        <i class="ph ph-truck"></i>
+                    </div>
+                    <h3 data-key="steps.step3.title">Transport</h3>
+                    <p data-key="steps.step3.desc">Main Courier Point forwards via bus / van</p>
+                </div>
+                
+                <div class="step-connector"></div>
+
+                <!-- Step 4 -->
+                <div class="step-card fade-in">
+                    <div class="step-icon-wrapper blue">
+                        <i class="ph ph-check-circle"></i>
+                    </div>
+                    <h3 data-key="steps.step4.title">Delivery</h3>
+                    <p data-key="steps.step4.desc">Main Office ensures final safe delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Network Structure -->
+    <section class="section network-structure bg-gradient">
+        <div class="container">
+            <h2 class="section-title text-center" data-key="sections.network">Our Network Structure</h2>
+            
+            <div class="network-grid">
+                <div class="network-card">
+                    <div class="icon-box">🏠</div>
+                    <h3 data-key="network.sub.title">Sub Courier Point</h3>
+                    <p data-key="network.sub.desc">Local shops collect parcels & earn commission</p>
+                </div>
+                <div class="network-card featured">
+                    <div class="icon-box">🏢</div>
+                    <h3 data-key="network.main.title">Main Courier Point</h3>
+                    <p data-key="network.main.desc">Village-level hub managing multiple sub-points</p>
+                </div>
+                <div class="network-card">
+                    <div class="icon-box">🏬</div>
+                    <h3 data-key="network.office.title">Main Office</h3>
+                    <p data-key="network.office.desc">Central coordination & final delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Earnings Section -->
+    <section class="section earnings">
+        <div class="container">
+            <h2 class="section-title text-center" data-key="sections.earnings">Earnings & Opportunity</h2>
+            
+            <div class="earnings-wrapper">
+                <div class="earnings-card">
+                    <div class="earnings-header sub-point">
+                        <h3 data-key="earnings.sub.title">Sub Courier Point</h3>
+                        <div class="commission">15–20%</div>
+                        <span class="label" data-key="earnings.commission">Commission</span>
+                    </div>
+                    <ul class="earnings-list">
+                        <li><i class="ph ph-gift"></i> <span data-key="earnings.sub.perk1">Weekly incentives & gifts</span></li>
+                        <li><i class="ph ph-storefront"></i> <span data-key="earnings.sub.perk2">Increase footfall to your shop</span></li>
+                    </ul>
+                </div>
+
+                <div class="earnings-card">
+                    <div class="earnings-header main-point">
+                        <h3 data-key="earnings.main.title">Main Courier Point</h3>
+                        <div class="commission">3–5%</div>
+                        <span class="label" data-key="earnings.commission">Override Commission</span>
+                    </div>
+                    <ul class="earnings-list">
+                        <li><i class="ph ph-chart-line-up"></i> <span data-key="earnings.main.perk1">Supervisory role</span></li>
+                        <li><i class="ph ph-users-three"></i> <span data-key="earnings.main.perk2">Manage network of sub-points</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="payment-badge">
+                <i class="ph ph-money"></i>
+                <span data-key="earnings.payment_note">Fast payments after delivery confirmation</span>
+            </div>
+
+            <div class="center-btn">
+                <button class="btn btn-primary" data-key="earnings.cta">Start Earning with Gramlink</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Join & App Ecosystem (Combined for flow) -->
+    <section class="section why-join">
+        <div class="container">
+            <h2 class="section-title text-center" data-key="sections.why_join">Why Join Gramlink?</h2>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="ph ph-briefcase"></i>
+                    <span data-key="why.employment">Local Employment</span>
+                </div>
+                <div class="feature-item">
+                    <i class="ph ph-wallet"></i>
+                    <span data-key="why.investment">No Heavy Investment</span>
+                </div>
+                <div class="feature-item">
+                    <i class="ph ph-shield-check"></i>
+                    <span data-key="why.trust">Trusted Model</span>
+                </div>
+                <div class="feature-item">
+                    <i class="ph ph-receipt"></i>
+                    <span data-key="why.transparent">Transparent Income</span>
+                </div>
+                <div class="feature-item">
+                    <i class="ph ph-device-mobile"></i>
+                    <span data-key="why.tech">Tech Enabled</span>
+                </div>
+                <div class="feature-item">
+                    <i class="ph ph-users"></i>
+                    <span data-key="why.community">Community First</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Ecosystem -->
+    <section class="section apps bg-light">
+        <div class="container">
+            <h2 class="section-title text-center" data-key="sections.apps">Simple Apps for Everyone</h2>
+            <p class="section-subtitle text-center" data-key="apps.subtitle">Simple apps designed for smartphones with minimal training</p>
+
+            <div class="app-cards">
+                <div class="app-card">
+                    <div class="app-icon user"><i class="ph ph-user"></i></div>
+                    <h3 data-key="apps.user.title">User App</h3>
+                    <p data-key="apps.user.desc">Book & track parcels easily</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon partner"><i class="ph ph-storefront"></i></div>
+                    <h3 data-key="apps.partner.title">Courier Point App</h3>
+                    <p data-key="apps.partner.desc">Parcel intake, batching, earnings</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon delivery"><i class="ph ph-scooter"></i></div>
+                    <h3 data-key="apps.driver.title">Delivery Partner App</h3>
+                    <p data-key="apps.driver.desc">Secure pickup & delivery updates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner With Us -->
+    <section class="section partner-with-us">
+        <div class="container">
+            <div class="partner-content">
+                <h2 data-key="partner.title">Who Can Become a Partner?</h2>
+                <div class="partner-tags">
+                    <span class="tag" data-key="partner.kirana">Kirana Stores</span>
+                    <span class="tag" data-key="partner.stationery">Stationery Shops</span>
+                    <span class="tag" data-key="partner.ladies">Ladies Shops</span>
+                    <span class="tag" data-key="partner.laundry">Laundry Services</span>
+                    <span class="tag" data-key="partner.small_biz">Small Village Businesses</span>
+                </div>
+                <button class="btn btn-primary mt-4" data-key="partner.cta">Become a Courier Point</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Gramlink<span class="dot">.</span></h3>
+                    <p data-key="about.mission">Connecting villages, empowering locals, building trust.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-key="footer.contact">Contact Us</h4>
+                    <p>📍 <span data-key="footer.address">Main Road, Example Village, District</span></p>
+                    <p>📞 <span data-key="footer.phone">+91 98765 43210</span></p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="ph ph-whatsapp-logo"></i></a>
+                    <a href="#" class="social-link"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#" class="social-link"><i class="ph ph-instagram-logo"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gramlink Courier. <span data-key="footer.rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Bottom CTA (Mobile Only Logic via CSS) -->
+    <div class="mobile-sticky-cta">
+        <button class="btn btn-secondary full-width" data-key="sticky.send">Send Parcel</button>
+        <button class="btn btn-primary full-width" data-key="sticky.join">Join Us</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/translations.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
