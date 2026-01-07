@@ -39,9 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // --- Scroll Animations (Intersection Observer) ---
+    // Add class to indicate JS is running
+    document.body.classList.add('js-active');
+
     const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0.05, // Lower threshold for earlier triggering
+        rootMargin: "0px 0px -20px 0px" // More forgiving margin
     };
 
     const observer = new IntersectionObserver((entries) => {
