@@ -45,12 +45,13 @@
                     opportunities in every village.</p>
 
                 <div class="hero-actions">
-                    <button class="btn btn-primary" data-key="hero.cta_send">Send a Parcel</button>
-                    <button class="btn btn-outline" data-key="hero.cta_join">Join as Courier Partner</button>
+                    <button class="btn btn-primary modal-trigger" data-key="hero.cta_send">Send a Parcel</button>
+                    <a href="https://forms.gle/YOUR_FORM_LINK_HERE" target="_blank" class="btn btn-outline"
+                        data-key="hero.cta_join">Join as Courier Partner</a>
                 </div>
 
                 <div class="hero-secondary-cta">
-                    <a href="#" class="link-text" data-key="hero.cta_app">Download App (Coming Soon) →</a>
+                    <a href="#" class="link-text modal-trigger" data-key="hero.cta_app">Download App (Coming Soon) →</a>
                 </div>
             </div>
             <!-- Decorative background elements could go here -->
@@ -175,7 +176,8 @@
             </div>
 
             <div class="center-btn">
-                <button class="btn btn-primary" data-key="earnings.cta">Start Earning with Gramlink</button>
+                <a href="https://forms.gle/YOUR_FORM_LINK_HERE" target="_blank" class="btn btn-primary"
+                    data-key="earnings.cta">Start Earning with Gramlink</a>
             </div>
         </div>
     </section>
@@ -253,7 +255,8 @@
                     <span class="tag" data-key="partner.laundry">Laundry Services</span>
                     <span class="tag" data-key="partner.small_biz">Small Village Businesses</span>
                 </div>
-                <button class="btn btn-primary mt-4" data-key="partner.cta">Become a Courier Point</button>
+                <a href="https://forms.gle/YOUR_FORM_LINK_HERE" target="_blank" class="btn btn-primary mt-4"
+                    data-key="partner.cta">Become a Courier Point</a>
             </div>
         </div>
     </section>
@@ -268,8 +271,15 @@
                 </div>
                 <div class="footer-contact">
                     <h4 data-key="footer.contact">Contact Us</h4>
-                    <p>📍 <span data-key="footer.address">Main Road, Example Village, District</span></p>
-                    <p>📞 <span data-key="footer.phone">+91 98765 43210</span></p>
+                    <p>📍 <a href="https://maps.google.com/?q=2nd+Floor,Shop+No.9,Jhulelal+Market,Gandhinagar-Chinchwad+Road,Near+Tawade+Transport,Gandhinagar,Kolhapur-416119"
+                            target="_blank" style="color: inherit; text-decoration: none;"><span
+                                data-key="footer.address">2nd Floor,Shop No.9,Jhulelal Market, Gandhinagar-Chinchwad
+                                Road, Near Tawade Transport , Gandhinagar, Kolhapur-416119</span></a></p>
+                    <p>📞 <a href="tel:917769810040" style="color: inherit; text-decoration: none;"><span
+                                data-key="footer.phone">+91 77 698 100 40</span></a></p>
+                    <p>✉️ <a href="mailto:support.gramlink@gmail.com"
+                            style="color: inherit; text-decoration: none;"><span
+                                data-key="footer.email">support.gramlink@gmail.com</span></a></p>
                 </div>
                 <div class="footer-social">
                     <a href="#" class="social-link"><i class="ph ph-whatsapp-logo"></i></a>
@@ -278,15 +288,30 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Gramlink Courier. <span data-key="footer.rights">All rights reserved.</span></p>
+                <p>&copy; 2025 Gramlink Courier. <span data-key="footer.rights">All rights reserved.</span></p>
             </div>
         </div>
     </footer>
 
     <!-- Fixed Bottom CTA (Mobile Only Logic via CSS) -->
     <div class="mobile-sticky-cta">
-        <button class="btn btn-secondary full-width" data-key="sticky.send">Send Parcel</button>
+        <button class="btn btn-secondary full-width modal-trigger" data-key="sticky.send">Send Parcel</button>
         <button class="btn btn-primary full-width" data-key="sticky.join">Join Us</button>
+    </div>
+
+    <!-- WhatsApp Chatbot -->
+    <a href="https://wa.me/917769810040" class="whatsapp-chat-btn" target="_blank" title="Chat with us on WhatsApp">
+        <i class="ph ph-whatsapp-logo"></i>
+    </a>
+
+    <!-- Modal -->
+    <div id="info-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-icon"><i class="ph ph-info"></i></div>
+            <p class="modal-message" data-key="modal.message">App is launching soon then you can send parcel</p>
+            <button class="modal-ack-btn">OK</button>
+        </div>
     </div>
 
     <!-- Scripts -->

@@ -61,10 +61,13 @@ export const translations = {
         "partner.small_biz": "Small Village Businesses",
         "partner.cta": "Become a Courier Point",
 
+        "modal.message": "App is launching soon then you can send parcel",
+
         "about.mission": "Connecting villages, empowering locals, building trust.",
         "footer.contact": "Contact Us",
-        "footer.address": "Main Road, Example Village, District",
-        "footer.phone": "+91 98765 43210",
+        "footer.address": "2nd Floor,Shop No.9,Jhulelal Market, Gandhinagar-Chinchwad Road, Near Tawade Transport , Gandhinagar, Kolhapur-416119",
+        "footer.phone": "+91 77 698 100 40",
+        "footer.email": "support.gramlink@gmail.com",
         "footer.rights": "All rights reserved.",
 
         "sticky.send": "Send Parcel",
@@ -132,10 +135,13 @@ export const translations = {
         "partner.small_biz": "लहान गाव व्यवसाय",
         "partner.cta": "कुरिअर पॉईंट बना",
 
+        "modal.message": "ॲप लवकरच लॉन्च होत आहे, त्यानंतर तुम्ही पार्सल पाठवू शकता",
+
         "about.mission": "गावांना जोडणे, स्थानिकांना सक्षम करणे, विश्वास निर्माण करणे.",
         "footer.contact": "संपर्क साधा",
-        "footer.address": "मेन रोड, नमुना गाव, जिल्हा",
-        "footer.phone": "+91 98765 43210",
+        "footer.address": "2nd Floor,Shop No.9,Jhulelal Market, Gandhinagar-Chinchwad Road, Near Tawade Transport , Gandhinagar, Kolhapur-416119",
+        "footer.phone": "+91 77 698 100 40",
+        "footer.email": "support.gramlink@gmail.com",
         "footer.rights": "सर्व हक्क राखीव.",
 
         "sticky.send": "पार्सल पाठवा",
@@ -203,10 +209,13 @@ export const translations = {
         "partner.small_biz": "छोटे ग्रामीण व्यवसाय",
         "partner.cta": "कूरियर पॉइंट बनें",
 
+        "modal.message": "ऐप जल्द ही लॉन्च हो रहा है, उसके बाद आप पार्सल भेज सकते हैं",
+
         "about.mission": "गाँवों को जोड़ना, स्थानीय लोगों को सशक्त बनाना, विश्वास बनाना।",
         "footer.contact": "संपर्क करें",
-        "footer.address": "मेन रोड, उदाहरण गाँव, जिला",
-        "footer.phone": "+91 98765 43210",
+        "footer.address": "2nd Floor,Shop No.9,Jhulelal Market, Gandhinagar-Chinchwad Road, Near Tawade Transport , Gandhinagar, Kolhapur-416119",
+        "footer.phone": "+91 77 698 100 40",
+        "footer.email": "support.gramlink@gmail.com",
         "footer.rights": "सर्वाधिकार सुरक्षित।",
 
         "sticky.send": "पार्सल भेजें",

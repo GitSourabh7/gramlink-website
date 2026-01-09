@@ -79,4 +79,33 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // --- Modal Logic ---
+    const modal = document.getElementById('info-modal');
+    const modalCloseBtn = document.querySelector('.modal-close-btn');
+    const modalAckBtn = document.querySelector('.modal-ack-btn');
+    const modalTriggers = document.querySelectorAll('.modal-trigger');
+
+    function openModal(e) {
+        e.preventDefault(); // Prevent default link behavior if it's an anchor
+        modal.classList.add('active');
+    }
+
+    function closeModal() {
+        modal.classList.remove('active');
+    }
+
+    modalTriggers.forEach(trigger => {
+        trigger.addEventListener('click', openModal);
+    });
+
+    modalCloseBtn.addEventListener('click', closeModal);
+    modalAckBtn.addEventListener('click', closeModal);
+
+    // Close on click outside
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+
 });
