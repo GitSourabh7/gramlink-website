@@ -67,7 +67,7 @@ export const translations = {
         "footer.contact": "Contact Us",
         "footer.address": "2nd Floor,Shop No.9,Jhulelal Market, Gandhinagar-Chinchwad Road, Near Tawade Transport , Gandhinagar, Kolhapur-416119",
         "footer.phone": "+91 77 698 100 40",
-        "footer.email": "support.gramlink@gmail.com",
+        "footer.email": "team.gramlink@gmail.com",
         "footer.rights": "All rights reserved.",
 
         "sticky.send": "Send Parcel",
@@ -141,7 +141,7 @@ export const translations = {
         "footer.contact": "संपर्क साधा",
         "footer.address": "2nd Floor,Shop No.9,Jhulelal Market, Gandhinagar-Chinchwad Road, Near Tawade Transport , Gandhinagar, Kolhapur-416119",
         "footer.phone": "+91 77 698 100 40",
-        "footer.email": "support.gramlink@gmail.com",
+        "footer.email": "team.gramlink@gmail.com",
         "footer.rights": "सर्व हक्क राखीव.",
 
         "sticky.send": "पार्सल पाठवा",
@@ -215,7 +215,7 @@ export const translations = {
         "footer.contact": "संपर्क करें",
         "footer.address": "2nd Floor,Shop No.9,Jhulelal Market, Gandhinagar-Chinchwad Road, Near Tawade Transport , Gandhinagar, Kolhapur-416119",
         "footer.phone": "+91 77 698 100 40",
-        "footer.email": "support.gramlink@gmail.com",
+        "footer.email": "team.gramlink@gmail.com",
         "footer.rights": "सर्वाधिकार सुरक्षित।",
 
         "sticky.send": "पार्सल भेजें",
